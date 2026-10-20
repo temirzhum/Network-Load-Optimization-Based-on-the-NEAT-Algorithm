@@ -14,5 +14,6 @@ numpy, matplotlib, networkx, graphviz, torch
 Запуск
 
 Запустите файл balance_neat.py
+
 По умолчанию выполняется метод test_1, который тестирует выбранную популяцию через run_simulation из course.py.
 Чтобы переключиться между NEAT и RL, закомментируй нужную строку в run_simulation (по умолчанию выбран NEAT).
