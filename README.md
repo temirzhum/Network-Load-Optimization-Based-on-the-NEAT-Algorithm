@@ -44,7 +44,7 @@ The proposed NEAT-based approach was compared with Reinforcement Learning and Au
 
 The NEAT-based approach achieved higher traffic throughput and user satisfaction while requiring substantially less execution time than the two alternative implementations.
 
-## Limitations and Future Work
+# Limitations and Future Work
 
 The simulation uses a simplified radio propagation model based on free-space path loss and standard thermal noise. It does not account for physical obstacles, realistic base station deployment patterns, or structured user mobility.
 
@@ -52,15 +52,3 @@ An analysis of evolved neural network topologies also revealed that the resultin
 
 Future work could investigate more realistic radio environments, additional network configurations, and improved generalization across different deployment scenarios.
 
-# Technologies and Concepts
-
-- Python
-- Neuroevolution
-- Genetic Algorithms
-- Neural Networks
-- NEAT
-- Reinforcement Learning
-- LTE / 5G Networks
-- Network Load Balancing
-- Radio Resource Management
-- Simulation and Performance Evaluation
