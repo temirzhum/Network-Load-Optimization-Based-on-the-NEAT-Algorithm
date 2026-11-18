@@ -4,7 +4,7 @@ A simulation-based implementation of an adaptive load balancing algorithm for he
 
 The project explores the application of neuroevolution to dynamic network optimization by evolving neural network architectures, weights, and biases to optimize Cell Individual Offset (CIO) parameters and improve user distribution across base stations.
 
-## Key Features
+# Key Features
 
 - **NEAT-based Optimization:** Evolves neural network topology, connection weights, and biases simultaneously using evolutionary mechanisms.
 - **Heterogeneous Network Simulation:** Models LTE macro cells and 5G small cells with different coverage areas, transmission powers, bandwidths, and resource capacities.
@@ -15,7 +15,7 @@ The project explores the application of neuroevolution to dynamic network optimi
 - **NEAT Improvements:** Implements connection pruning, population-wide elitism, weight blending during crossover, and probabilistic inheritance of genes from less-fit parents.
 - **Algorithm Comparison:** Evaluates the proposed approach against Reinforcement Learning (Q-learning) and Automatic Weight Function (AWF) algorithms.
 
-## Simulation Environment
+# Simulation Environment
 
 The simulated network consists of:
 
@@ -28,7 +28,7 @@ The simulated network consists of:
 
 Each simulation step represents 0.5 seconds and includes user movement, radio parameter calculations, handover decisions, resource allocation, and performance evaluation.
 
-## Performance Evaluation
+# Performance Evaluation
 
 The proposed NEAT-based approach was compared with Reinforcement Learning and Automatic Weight Function methods under identical simulation conditions.
 
@@ -52,7 +52,7 @@ An analysis of evolved neural network topologies also revealed that the resultin
 
 Future work could investigate more realistic radio environments, additional network configurations, and improved generalization across different deployment scenarios.
 
-## Technologies and Concepts
+# Technologies and Concepts
 
 - Python
 - Neuroevolution
